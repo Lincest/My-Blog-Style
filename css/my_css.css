@@ -531,14 +531,23 @@ a:hover {
 }
 
 #topics .postBody blockquote {
-    border: none;
-    color: #314659;
-    margin: 20px 0;
-    padding: 0 0 0 10px;
-    min-height: 20px;
-    background: 0 0;
-    line-height: inherit;
-    border-left: 4px solid #dde5f1
+    background: #f5f2f0;
+    margin: 2em 2em;
+    font-family: Consolas, Monaco, "Andale Mono", monospace;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    font-family: Consolas, Monaco, "Andale Mono", monospace;
+    border-width: .3em;
+    border-color: #e0dfcc;
+    border-style: solid;
+    text-shadow: 0 1px white;
+    overflow: auto;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
 }
 
 #topics .postBody em {
@@ -2085,6 +2094,7 @@ canvas {
 
 #topics .cao img {
     box-shadow: 0 0 0px black;
+    border:none;
 }
 
 #topics .postBody h1,
