@@ -567,6 +567,7 @@ a:hover {
 
 #topics .postBody img {
     max-width: 930px !important;
+    max-height: 800px !important;
     border: .3em solid #e0dfcc;
     border-radius: 1em;
     margin-block-start: 1em;
