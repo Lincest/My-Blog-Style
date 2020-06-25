@@ -589,7 +589,7 @@ a:hover {
 }
 
 #topics .postBody table {
-    font-size: 13px;
+    font-size: 14px;
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
@@ -604,13 +604,17 @@ a:hover {
     background: #f7f7f7 !important;
     white-space: nowrap;
     font-weight: 600;
-    border: 1px solid #eef2f8 !important;
+    border: 1px solid #dedede !important;
     padding: 8px 16px !important
 }
 
 #topics .postBody table td {
-    border: 1px solid #eef2f8 !important;
+    border: 1px solid #dedede !important;
     padding: 8px 16px !important
+}
+
+#topics .postBody tr:nth-child(2n) {
+    background: #f7f7f7;
 }
 
 #topics .postBody h1 code,
